@@ -1,1 +1,1 @@
-# Practiceone
+# stocks-analysis
