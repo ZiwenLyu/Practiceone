@@ -33,17 +33,10 @@ However, the refactored script only uses no more than 0.2s for 2017 stock analys
 
 1. Advantages and Disadvantages of refactoring code:
 
--
--
--
--
-
+- Advantage: The biggest difference between the original and the refactored code is using a variable as an index to access arrays. In this way, the refactored script doesn't have to use a ***nested For Loop*** that runs an array within another array. It reduces numbers of operations so executing codes becomes easier and more time-saving. 
+- Disadvantage: Sometimes each array has different numbers of variables, which means we need to create more variable as indexes for each array and it will also be cumbersome. 
 
 2. Advantages and Disadvantages of applying code to the VBA script:
 
-
--
--
--
--
--
+- Advantages: : This script creates a variable tickerIndex as an index for four arrays: tickers, tickerStaringPrice, tickerEndingPrice, and tickerVolumes, and the four arrays all have 12 variables so using one tickerIndex is really convenient and helpful. It avoids using nested For Loop and saving numbers of operations 12 times than the original one.
+- Disadvantages: In my two scripts, the refactored script takes 60 more lines than the origial scripts. 
